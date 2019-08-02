@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Bienvenue :)</h1>
+    <h1>Bienvenue !</h1>
     <ul class="post-list">
       <li v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
         <Post :post="node" />

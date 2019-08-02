@@ -6,9 +6,14 @@ body {
     min-width: 80%;
 }
 
+img {
+    max-width: 40%;
+    max-height: auto;
+}
+
 h2 {
     font-family: 'Rubik';
-    font-weight: 900;
+    font-weight: 700;
     border: 0 solid;
 }
 
@@ -16,9 +21,35 @@ h1 {
     text-align: center;
     background: linear-gradient(120deg,#6128a1,#e94b59);
     font-size: 4rem;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 hr {
-    border: 2px solid black;
+    border: 1px solid black;
+}
+
+.nav__link {
+    color: #6128a1;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+button {
+    background-color: #6128a1;
+    color: white;
+    font-weight: 700;
+    border-radius: 10%;
+    min-height: 50px;
+    font-family: 'Rubik';
+    
+}
+
+button:hover {
+    background-color: #e94b59;
+    color: white;
+    font-weight: 700;
+    border-radius: 10%;
+    min-height: 50px;
+    font-family: 'Rubik';
+    
 }

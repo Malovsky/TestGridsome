@@ -3,7 +3,7 @@
     <h2 v-html="post.title" />
     <div v-html="post.excerpt" />
     <g-link :to="post.path">
-      En savoir plus
+      <button>En savoir plus </button>
     </g-link>
     <hr>
   </div>
